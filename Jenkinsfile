@@ -4,14 +4,14 @@ pipeline {
     stages {
 
        stage('Build') {
-          Steps {
+          steps {
               sh 'echo Build Started'
           }
        }
 
 
-       Stage('Test') {
-          Steps {
+       stage('Test') {
+          steps {
               sh 'echo Test Passed'
           }
        }
